@@ -7,7 +7,7 @@ name: dbos-app-starter
 language: python
 runtimeConfig:
   start:
-    - "python app.py"
+    - "fastapi run app.py"
 database:
   migrate:
     - echo 'No migrations specified'
